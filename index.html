@@ -2,8 +2,13 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-<meta name="google-adsense-account" content="ca-pub-1699426081740037">
+  <meta name="google-adsense-account" content="ca-pub-1699426081740037">
   <title>Générateur de mot de passe 🔐</title>
+
+  <!-- Script Google AdSense (obligatoire pour afficher les pubs) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1699426081740037"
+     crossorigin="anonymous"></script>
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -24,22 +29,10 @@
 </head>
 <body>
   <h1>🔐 Générateur de mot de passe</h1>
-  <label for="length">Longueur du mot de passe :</label>
-  <input type="number" id="length" value="12" min="4" max="50">
-  <br>
-  <button onclick="generatePassword()">Générer</button>
-  <p id="result"></p>
 
-  <script>
-    function generatePassword() {
-      const length = document.getElementById('length').value;
-      const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
-      let password = "";
-      for (let i = 0; i < length; i++) {
-        password += characters.charAt(Math.floor(Math.random() * characters.length));
-      }
-      document.getElementById('result').innerText = "Ton mot de passe : " + password;
-    }
-  </script>
-</body>
-</html>
+  <!-- Bloc pub AdSense -->
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-client="ca-pub-1699426081740037"
+       data-ad-slot="1234567890"
+       data-ad-
